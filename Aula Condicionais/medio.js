@@ -15,6 +15,7 @@ switch (diaSemana){
         break;
     case 'sexta-feira':
         console.log('Dia de sair para passear');
+        break;
     case 'Sábado':
         console.log('Dia de descanso e lazer');
         break;
