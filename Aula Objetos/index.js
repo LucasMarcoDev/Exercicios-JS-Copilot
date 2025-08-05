@@ -8,7 +8,7 @@ let cliente = {
 console.log('o nome do cliente é ' +cliente.nome)
 console.log('sua idade é :'+ cliente.idade)
 console.log('Possui cartao fidelidade: '+cliente.temCartaoFidelidade)
-console.log('os seus pratos favoritos são: ' + cliente.favoritos)
+console.log('os seus pratos favoritos são: ' + cliente.favoritos.join('|'))
 
 /*
 Desafiozinho pra você:
