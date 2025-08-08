@@ -1,6 +1,6 @@
-function verificarPromocao(prato){
+function verificarPromocao(prato){  //Criação de função 1ue usa objetos como parâmetro
     console.log(`você selecionou o prato: ${prato.nome}`);
-    if(prato.preco > 35){
+    if(prato.preco > 35){           //utilização de IF para verificação de condição de possível desconto.
 
         console.log('Participa da promoção de delivery grátis!')
     }else{
@@ -8,23 +8,16 @@ function verificarPromocao(prato){
         console.log('Não participa da promoção vegana. O produto selecionado tem valor menor que R$35.00')
     }
     console.log(`Valor do prato selecionado ${prato.preco}`);
-    console.log(`Prato vegano: ${prato.vegano ? 'Participa  da promoção especial vegana' : 'Esse prato não é uma opção vegana' }`);
+    console.log(`Prato vegano: ${prato.vegano ? 'Participa  da promoção especial vegana' : 'Esse prato não é uma opção vegana' }`); //Utilização de operador ternário para verificação de um boolean, evitando uso de if para um código menor
 }
 
 let pratos = {
-    nome: 'pizza',
+    nome: 'pizza',   //Criação de objeto
     preco: 40,
     vegano: false
 }
 
-verificarPromocao(pratos);
+verificarPromocao(pratos);     //comando para chamada de função
 
 
 
-/*
-O nome do prato
-O preço
-Se for vegano, diga: “✅ Participa da promoção especial vegana!”
-
-Se custar acima de 35, diga: “🎁 Participa da promoção de delivery grátis!”
-*/
