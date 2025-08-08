@@ -1,4 +1,4 @@
-let pratos = [
+let pratos = [      //Array de objetos 
     {
         nomeDoPrato: 'Feijoada',
         preco: 40,
@@ -20,7 +20,7 @@ let pratos = [
     }
     
 ];
-    pratos.forEach((prato)=>{
+    pratos.forEach((prato)=>{                            //função foreach que passa por cada objeto dentro da array
         console.log('Prato escolhido' + prato.nomeDoPrato);
         console.log('Valor R$' + prato.preco);
         console.log('Opção vegana ?' + (prato.vegano ? 'Sim' : 'Não'));
