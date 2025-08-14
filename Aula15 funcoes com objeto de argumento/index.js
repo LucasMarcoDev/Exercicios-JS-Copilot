@@ -1,4 +1,4 @@
-function verificarPromocao(prato){  //Criação de função 1ue usa objetos como parâmetro
+function verificarPromocao(prato){  //Criação de função que usa objetos como parâmetro
     console.log(`você selecionou o prato: ${prato.nome}`);
     if(prato.preco > 35){           //utilização de IF para verificação de condição de possível desconto.
 
