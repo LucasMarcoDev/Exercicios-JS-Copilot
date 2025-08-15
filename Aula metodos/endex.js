@@ -4,7 +4,7 @@ let prato = {
     preco: 28,
     mostraPrato: function(){
         console.log(`Prato selecionado:  ${prato.nome}`)
-        console.log(prato.preco >30 ? 'Ganhou desconto' : 'Nao ganhou desconto')
+        console.log(this.preco >30 ? 'Ganhou desconto' : 'Nao ganhou desconto')
 
     }
 }
