@@ -7,7 +7,7 @@ let pessoas = {
         switch(this.cFidelidade){
             case true:
                 let desconto = this.preco * 0.10;
-        let valorFinal = this.preco - desconto;
+                let valorFinal = this.preco - desconto;
                  console.log(`Cliente ${this.nome} tem cartao fidelidade`)
                  console.log(`Valor original: ${this.preco.toFixed(2)}`)
                  console.log(`Desconto aplicado ${desconto.toFixed(2)}`)
