@@ -24,20 +24,4 @@ cardapio.forEach(function(cardapio){
     
 })
 
-/*
 
-Use forEach() para percorrer o cardapio e chamar mostrarDetalhes() para cada prato
-
-✨ Bônus opcional:
-Dentro do método mostrarDetalhes(), se o prato for vegano e custar menos de R$30, exiba:
-
-“🌱 Este prato participa da promoção vegana econômica!”
-
-💡 Dica:
-Você pode usar:if (this.vegano && this.preco < 30) {
-  console.log("🌱 Este prato participa da promoção vegana econômica!");
-}
-
-
-
-*/
