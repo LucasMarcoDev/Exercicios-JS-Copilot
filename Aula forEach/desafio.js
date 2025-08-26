@@ -17,8 +17,8 @@ function Prato(nome, preco, vegano){
 
 let cardapio = [new Prato('Lasanha', 40, false), new Prato('Feijoada', 60, false), new Prato('Tofu', 27.50, true)]
 
-cardapio.forEach(function(cardapio){
-    cardapio.mostrarDetalhes()
+cardapio.forEach(function(lista){
+    lista.mostrarDetalhes()
     
         
     
