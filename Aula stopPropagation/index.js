@@ -1,14 +1,13 @@
 const caixa1 = document.querySelector('#caixa1');
-const btn_c1=document.querySelector('#c1');
-const cursos=[...document.querySelectorAll('.curso')]
+const btn_c1=[...document.querySelector('.curso')];
 
-caixa1.addEventListener("click",(evt)=>{
-    console.log("clicou")
-    console.log(evt)
-})
 
-cursos.map((el)=>{
-    el.addEventListener('click',(evt)=>{
-        evt.stopPropagation()
-    })
-})
+console.log(btn_c1[0]getRootNode());
+console.log(btn_c1[0].ocument);
+
+//console.log(caixa1.firstElementChild)
+//console.log(caixa1.lastElementChild)
+//console.log(caixa1.children)
+
+
+
